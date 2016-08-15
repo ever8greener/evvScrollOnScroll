@@ -1,35 +1,29 @@
 //
-//  ViewController.m
+//  MomVC.m
 //  xxNAAgain
 //
 //  Created by artist on 8/15/16.
 //  Copyright © 2016 EddieKwon. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "MomVC.h"
 
-@interface ViewController ()
+@interface MomVC ()
+@property (weak, nonatomic) IBOutlet UIScrollView *containerScrollView;
 
 @end
 
-@implementation ViewController
+@implementation MomVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-
--(void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-
-    MomVC * momVC = [[MomVC alloc]init];
-    [self presentViewController:momVC animated:NO completion:nil];
-    
+     _containerScrollView.contentSize = CGSizeMake(_containerScrollView.bounds.size.width, 1000);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+ 
 
 @end

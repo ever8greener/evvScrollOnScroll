@@ -13,6 +13,9 @@
 		6DD80B1E1D61CDC100D7E03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD80B1C1D61CDC100D7E03C /* Main.storyboard */; };
 		6DD80B201D61CDC100D7E03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD80B1F1D61CDC100D7E03C /* Assets.xcassets */; };
 		6DD80B231D61CDC100D7E03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD80B211D61CDC100D7E03C /* LaunchScreen.storyboard */; };
+		6DD80B2D1D61CE6D00D7E03C /* MomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD80B2B1D61CE6D00D7E03C /* MomVC.m */; };
+		6DD80B2E1D61CE6D00D7E03C /* MomVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD80B2C1D61CE6D00D7E03C /* MomVC.xib */; };
+		6DD80B311D61CFDF00D7E03C /* HorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD80B301D61CFDF00D7E03C /* HorizontalScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		6DD80B1F1D61CDC100D7E03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DD80B221D61CDC100D7E03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DD80B241D61CDC100D7E03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD80B2A1D61CE6D00D7E03C /* MomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomVC.h; sourceTree = "<group>"; };
+		6DD80B2B1D61CE6D00D7E03C /* MomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomVC.m; sourceTree = "<group>"; };
+		6DD80B2C1D61CE6D00D7E03C /* MomVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MomVC.xib; sourceTree = "<group>"; };
+		6DD80B2F1D61CFDF00D7E03C /* HorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollView.h; sourceTree = "<group>"; };
+		6DD80B301D61CFDF00D7E03C /* HorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,11 @@
 				6DD80B171D61CDC100D7E03C /* AppDelegate.m */,
 				6DD80B191D61CDC100D7E03C /* ViewController.h */,
 				6DD80B1A1D61CDC100D7E03C /* ViewController.m */,
+				6DD80B2A1D61CE6D00D7E03C /* MomVC.h */,
+				6DD80B2B1D61CE6D00D7E03C /* MomVC.m */,
+				6DD80B2C1D61CE6D00D7E03C /* MomVC.xib */,
+				6DD80B2F1D61CFDF00D7E03C /* HorizontalScrollView.h */,
+				6DD80B301D61CFDF00D7E03C /* HorizontalScrollView.m */,
 				6DD80B1C1D61CDC100D7E03C /* Main.storyboard */,
 				6DD80B1F1D61CDC100D7E03C /* Assets.xcassets */,
 				6DD80B211D61CDC100D7E03C /* LaunchScreen.storyboard */,
@@ -136,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD80B2E1D61CE6D00D7E03C /* MomVC.xib in Resources */,
 				6DD80B231D61CDC100D7E03C /* LaunchScreen.storyboard in Resources */,
 				6DD80B201D61CDC100D7E03C /* Assets.xcassets in Resources */,
 				6DD80B1E1D61CDC100D7E03C /* Main.storyboard in Resources */,
@@ -149,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD80B2D1D61CE6D00D7E03C /* MomVC.m in Sources */,
 				6DD80B1B1D61CDC100D7E03C /* ViewController.m in Sources */,
 				6DD80B181D61CDC100D7E03C /* AppDelegate.m in Sources */,
+				6DD80B311D61CFDF00D7E03C /* HorizontalScrollView.m in Sources */,
 				6DD80B151D61CDC100D7E03C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
